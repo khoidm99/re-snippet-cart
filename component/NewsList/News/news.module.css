@@ -1,0 +1,13 @@
+.imgText {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.img {
+	padding: 10px;
+}
+.description {
+	font-size: 1rem;
+	padding-left: 5rem;
+}

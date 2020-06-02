@@ -1,0 +1,57 @@
+.product {
+	display: grid;
+	grid-column-gap: 80px; /*khoảng cách các cột*/
+	grid-template-columns: 500px 500px; /*Số cột và độ rộng*/
+	grid-template-rows: 50px 180px 100px;
+	/*ở đây có 2 cột và 3 hàng*/
+	margin: 2.5rem 10rem;
+	color: black;
+	grid-template-areas:
+		'title        image'
+		'description  image'
+		'button       image';
+	overflow: hidden;
+}
+
+.product:nth-of-type(odd) {
+	grid-template-areas:
+		'image title   '
+		'image description  '
+		'image button  ';
+}
+.image {
+	border-radius: 4px;
+
+	grid-area: image;
+}
+
+.description {
+	font-size: 1.3rem;
+	grid-area: description;
+}
+
+.title {
+	font-weight: 700;
+
+	grid-area: title;
+}
+
+.price_button {
+	grid-area: button;
+}
+
+.price {
+	font-weight: 700;
+	font-size: 1.5rem;
+	display: inline;
+}
+
+.button {
+	margin-left: 1.6rem;
+	background-color: #767788;
+	color: white;
+	border-radius: 0.3rem;
+	font-size: 1rem;
+	font-weight: bold;
+	height: 3rem;
+}

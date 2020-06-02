@@ -1,0 +1,20 @@
+.header {
+  margin: 1rem 0 0 0;
+}
+
+.h1 {
+  display: inline;
+  font-weight: 600;
+}
+
+.cart {
+  font-size: 2.8rem;
+  padding-left: 1.5rem;
+  color: #9094ff;
+}
+
+.pay {
+  color: #9094ff;
+  font-size: 1rem;
+  font-weight: 700;
+}

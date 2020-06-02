@@ -1,0 +1,34 @@
+.contact {
+  text-align: center;
+  background-color: #ebebeb;
+  padding: 6rem;
+}
+
+.h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.span {
+  color: #9094ff;
+}
+
+.p {
+  font-weight: 700;
+  font-size: 1rem;
+  color: black;
+}
+
+.button {
+  background-color: #343434;
+  color: white;
+  font-size: 1.5rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+}
+/* 
+.button :hover {
+    border-radius: 4px solid black;
+    background-color: #343434;
+    color: white;
+} */

@@ -1,0 +1,38 @@
+.header__logo {
+	height: 38px;
+}
+
+.background-image {
+	position: absolute;
+	opacity: 0.02;
+	left: -10vw;
+	top: -10vh;
+	height: 75vh;
+	transform: rotate(20deg);
+	pointer-events: none;
+}
+
+.promotional-message {
+	margin-bottom: 100px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.promotional-message h3 {
+	font-size: 20px;
+	line-height: normal;
+	text-align: center;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.promotional-message h2 {
+	font-size: 100px;
+	margin: 0;
+	color: #9094ff;
+}
+
+.blog-page {
+	color: #9094ff;
+}

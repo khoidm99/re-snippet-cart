@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "antd": "^4.3.0",
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^3.0.0",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-bootstrap-validation": "^0.1.11",
+    "react-dom": "16.13.1",
+    "reactstrap": "^8.4.1"
   }
 }
