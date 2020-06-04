@@ -4,6 +4,7 @@ import Header from './../component/Header/Header';
 
 import Contact from './../component/Main/Contact/Contact';
 import ProductList from './../component/Main/ProductList/ProductList';
+
 //mobx
 import { observer, inject } from 'mobx-react';
 
@@ -29,8 +30,10 @@ export default inject('ProductStore')(
 							An <strong>exclusive collection of bettas</strong> available for everyone.
 						</p>
 					</div>
+
 					{/* ProductList */}
 					<ProductList productList={props.ProductStore.productList} />
+
 					{/* Contact */}
 					<Contact />
 				</main>

@@ -55,7 +55,8 @@ class NewsStore {
 		{
 			id: 4,
 			title: 'Veiltail Betta',
-			description: 'By far the most common betta fish. You can recognize it by its long tail aiming downwards.',
+			description:
+				'By far the most common betta fish. You can recognize it by its long tail aiming downwards.By far the most common betta fish. You can recognize it by its long tail aiming downwards',
 			image: '/veiltail.jpg',
 			content: `vào năm 1960, nhà lai tạo người Mỹ Warren Young thành công trong việc tạo ra những con cá betta có vây cực dài .
       Young gọi cá betta của ông là “Libby” theo tên của vợ ông. 

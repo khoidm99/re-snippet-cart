@@ -11,3 +11,21 @@
 	font-size: 1rem;
 	padding-left: 5rem;
 }
+
+.description:nth-child(4) {
+	padding-right: 112px;
+}
+
+.button {
+	margin-left: 80px;
+	color: white;
+	background: #d63031;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.5;
+}
+
+.button:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
