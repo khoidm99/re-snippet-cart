@@ -68,12 +68,6 @@ export default function Header({ href }) {
 						<a>Sản Phẩm</a>
 					</Link>
 				</Menu.Item>
-				<Menu.Item key="3">
-					<ShoppingCartOutlined></ShoppingCartOutlined>
-					<Link href={`/cart/[id]`}>
-						<a>Cart (0)</a>
-					</Link>
-				</Menu.Item>
 			</Menu>
 		</div>
 	);

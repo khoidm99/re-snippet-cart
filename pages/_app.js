@@ -3,7 +3,7 @@ import 'antd/dist/antd.css';
 import { Provider } from 'mobx-react';
 import ProductStore from '../stores/ProductStore';
 import NewsStore from '../stores/NewsStore';
-import CartStore from '../stores/CartStore';
+
 import '../styles.css';
 //có thể dùng tạo
 /*const store = {ProductStore,NewsStore} 
@@ -13,7 +13,7 @@ import '../styles.css';
 
 export default function MyApp({ Component, pageProps }) {
 	return (
-		<Provider ProductStore={ProductStore} NewsStore={NewsStore} CartStore={CartStore}>
+		<Provider ProductStore={ProductStore} NewsStore={NewsStore}>
 			<Component {...pageProps} />
 		</Provider>
 	);
