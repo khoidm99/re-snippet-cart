@@ -70,7 +70,7 @@ export default function Header({ href }) {
 				</Menu.Item>
 				<Menu.Item key="3">
 					<ShoppingCartOutlined></ShoppingCartOutlined>
-					<Link href={`/Cart`}>
+					<Link href={`/cart/[id]`}>
 						<a>Cart (0)</a>
 					</Link>
 				</Menu.Item>

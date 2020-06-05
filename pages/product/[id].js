@@ -11,6 +11,7 @@ export default inject('ProductStore')(
 	observer(function Product(props) {
 		const router = useRouter();
 		const product = props.ProductStore.productList.filter((product) => product.id === +router.query.id);
+		console.log(product);
 
 		return (
 			<div className="container">

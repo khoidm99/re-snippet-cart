@@ -25,11 +25,7 @@ export default inject('CartStore')(
 							</tr>
 						</thead>
 					</Table>
-					<Table>
-						<tbody>
-							<CartTable CartList={props.CartStore.CartList} />
-						</tbody>
-					</Table>
+					<CartTable CartList={props.CartStore.CartList} />
 				</Container>
 			</div>
 		);

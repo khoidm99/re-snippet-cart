@@ -5,11 +5,10 @@ import { withRouter } from 'next/router';
 import CartTable from '../../../addtocart/CartTable';
 import { useState } from 'react';
 import styles from './product.module.css';
+
 function Product(props) {
 	const { product } = props;
-	function addToCart() {
-		
-	}
+
 	return (
 		<div>
 			<Container>
@@ -26,8 +25,8 @@ function Product(props) {
 									<p className="text-uppercase font-weight-bold">${product.price.toFixed(2)}</p>
 								</Col>
 								<Col lg="6">
-									<Link href={`/Cart`}>
-										<Button onClick={addToCart}>Add to Cart</Button>
+									<Link href="/cart/[id]">
+										<Button>Add to cart</Button>
 									</Link>
 
 									<Link href="/product/[id]" as={`/product/${product.id}`}>

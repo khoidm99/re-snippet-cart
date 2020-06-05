@@ -6,39 +6,35 @@ class CartStore {
 			id: 1,
 			name: 'Halfmoon Betta',
 			price: 25.0,
+			quantity: 1,
 		},
 		{
 			id: 2,
 			name: 'Dragon Scale Betta',
 			price: 35.0,
+			quantity: 1,
 		},
 		{
 			id: 3,
 			name: 'Crowntail Betta',
 			price: 7.5,
+			quantity: 1,
 		},
 		{
 			id: 4,
 			name: 'Veiltail Betta',
 			price: 5.0,
+			quantity: 1,
 		},
 	];
 	total = 0;
-	totalPrice = 0;
-	sumTotal() {
-		total++;
-	}
-	quantity = 0;
-	sumTotalPrice(){
-		return 
-	}
-	// quantity = ()
-
-	addToCart = () => {
-		this.CartList = this.CartList.reduce((a, b) => {
-			return a.price + b;
-		}, 0);
+	sumTotal = () => {
+		return total++;
 	};
+
+	get sumTotal() {
+		return this.quantity * sumTotal;
+	}
 	get getList() {
 		return this.CartList;
 	}
@@ -46,8 +42,8 @@ class CartStore {
 
 decorate(CartStore, {
 	CartList: observable,
-	addToCart: action,
 	getList: computed,
+	sumTotal: computed,
 });
 
 const store = new CartStore();
